@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class TagService {
   findAll(): string[] {
-    return ['dragon', 'coffee', 'soju'];
+    return ['dragon', 'coffee', 'soju', 'beer'];
   }
 }
